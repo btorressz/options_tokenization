@@ -100,8 +100,8 @@ pub mod options_tokenization {
         token::transfer(cpi_ctx, amount)?;
 
         emit!(OptionTransferred {
-            from: ctx.accounts.from.owner, // Fixed: no dereferencing
-            to: ctx.accounts.to.owner,     // Fixed: no dereferencing
+            from: ctx.accounts.from.owner, 
+            to: ctx.accounts.to.owner,    
             amount,
         });
 
