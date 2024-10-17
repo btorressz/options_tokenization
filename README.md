@@ -32,3 +32,6 @@ This is a smart contract(Solana Program) for minting, transferring, and exercisi
 - **Core Contract (lib.rs)**: Fully implemented and functional.
 - **Test Suite**: Partially functional, with more tests to be developed.
 - **Client File**: Will be completed if needed for this project.
+
+  ## Tech Stack:
+  Anchor, Solana, Rust and Solana Playground IDE
